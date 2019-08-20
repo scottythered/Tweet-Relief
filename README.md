@@ -2,9 +2,11 @@
 *With apologies to Doug Benson for stealing the name Tweet Relief.*
 
 ## What is it?
-Tweet Relief is a Python script with a simple, Gooey-based GUI front to help scrub your Twitter profile of previous tweets. If you can run a Python script, you can scrub your timeline.
+Tweet Relief is a Python script with a simple, Gooey-based GUI front to help scrub your Twitter profile of previous tweets. If you can run a Python script, you can wipe away your timeline.
 
-![window.png](https://dl.dropboxusercontent.com/s/tq1tgc0ddqbrp5q/window.png)
+<p align="center">
+  <img src="https://dl.dropboxusercontent.com/s/tq1tgc0ddqbrp5q/window.png">
+</p>
 
 ## Why tho?
 Tweet Relief was inspired by a recent conversation in my Twitter DMs:
