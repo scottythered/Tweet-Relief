@@ -1,4 +1,4 @@
-# Tweet-Relief
+# Tweet Relief
 *With apologies to Doug Benson for stealing the name Tweet Relief.*
 
 ## What is it?
