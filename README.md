@@ -3,7 +3,7 @@
 
 ## What is it?
 Tweet Relief is a Python script with a simple, Gooey-based GUI front to help scrub your Twitter profile of previous tweets. If you can run a Python script, you can wipe away your timeline.
-
+<br /><br />
 <p align="center">
   <img src="https://dl.dropboxusercontent.com/s/tq1tgc0ddqbrp5q/window.png">
 </p>
