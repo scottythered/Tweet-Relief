@@ -20,9 +20,11 @@ Tweet Relief was inspired by a recent conversation in my Twitter DMs:
 - a burning desire to limit the spread of your Twitter persona
 
 ## Known Limitations
-Currently, Twitter's API will only let you access the latest ~3,200 tweets on your timeline. If you have an extensive timeline, you'll need to re-run Tweet Relief in several passes. You don't don't have to worry about rate-limiting, though... The maximum number of timeline tweets you can pull in a single request is 200. The rate limit for *GET statuses/user_timeline* is 1500 requests per window, and since all Twitter GET request windows are 15 minutes in length, the ~3,200 access limit is *waaaaay* less than the max number of tweets you can pull down in a single window (300,000).
+Currently, Twitter's API will only let you access the latest ~3,200 tweets on your timeline. If you have an extensive timeline, you'll need to re-run Tweet Relief in several passes.
 
-That being said, you *might* be rate-limited in deleting tweets. Twitter's [API documentation](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-destroy-id.html) states that deleting tweets is, like other API calls, rate-limited, but won't say exactly *what the limits are*. If you make a large number of passes on your timeline, beware that you might run afoul of some phantom API rate limit.
+You don't probably don't have to worry about rate-limiting, though... The maximum number of timeline tweets you can pull in a single request is 200. The rate limit for *GET statuses/user_timeline* is 1500 requests per window, and since all Twitter GET request windows are 15 minutes in length, the ~3,200 access limit is *waaaaay* less than the max number of tweets you can pull down in a single window (300,000).
+
+That being said, you *might* have to worry about rate-limiting in the deletion of tweets. Twitter's [API documentation](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-destroy-id.html) states that deleting tweets is, like other API calls, rate-limited but won't say exactly *what the limits are*. If you make a large number of passes on your timeline, beware that you might run afoul of some phantom API limit.
 
 ## How do I use it?
 First, you'll need Python. If you already have Python, great –- skip to the next step. If you’re not sure, open whatever shell environment you use and type `python --version`. make sure it's Python 3.5 or newer.
