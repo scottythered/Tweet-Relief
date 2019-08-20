@@ -45,6 +45,6 @@ python tweet_relief.py
 
 In the GUI, you'll add your credentials and pick a cutoff date; all tweets and retweets made before this cutoff date will be destroyed. You can also tell Tweet Relief which tweets that you don't deleted by adding their tweet IDs:
 
-https://twitter.com/scottythered/status/**1163158433865986048** ```<--- that's the tweet ID```
+twitter.com/scottythered/status/ **1163158433865986048** ```<--- that's the tweet ID```
 
 You only have to add these non-delete tweet IDs once -- Tweet Relief will generate a JSON file in the same directory and save your list of keepers, with the added bonus that it will update this list if you run Tweet Relief with new keepers in the future.
