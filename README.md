@@ -4,6 +4,8 @@
 ## What is it?
 Tweet Relief is a Python script with a simple, Gooey-based GUI front to help scrub your Twitter profile of previous tweets. If you can run a Python script, you can scrub your timeline.
 
+![window.png](https://dl.dropboxusercontent.com/s/tq1tgc0ddqbrp5q/window.png)
+
 ## Why tho?
 Tweet Relief was inspired by a recent conversation in my Twitter DMs:
 
@@ -48,3 +50,6 @@ In the GUI, you'll add your credentials and pick a cutoff date; all tweets and r
 twitter.com/scottythered/status/ **1163158433865986048** ```<--- that's the tweet ID```
 
 You only have to add these non-delete tweet IDs once -- Tweet Relief will generate a JSON file in the same directory and save your list of keepers, with the added bonus that it will update this list if you run Tweet Relief with new keepers in the future.
+
+## Info, Questions and Comments
+I am Scott Carlson, formerly the Metadata Coordinator of Rice University's Fondren Library. I received my MLIS from Dominican University (River Forest, IL) and an Archives Certificate in Digital Stewardship from Simmons College (Boston, MA). 
